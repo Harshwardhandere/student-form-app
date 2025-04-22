@@ -21,7 +21,7 @@ import pandas as pd
 if os.path.exists("students_data.xlsx"):
     st.subheader("📊 Submitted Data")
     data = pd.read_excel("students_data.xlsx")
-    st.dataframe(data).  
+    st.dataframe(data)  
 
 st.title("🎓 Student Registration Form")
 
