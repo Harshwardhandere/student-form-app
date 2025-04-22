@@ -8,7 +8,7 @@ Original file is located at
 """
 
 
-!pip install streamlit
+
 
 import streamlit as st
 import openpyxl
@@ -40,3 +40,6 @@ if st.button("Submit"):
         sheet.append([name, gender, education])
         workbook.save(excel_file)
         st.success(f"✅ Data saved for {name}")
+
+Removed Colab-style install command
+
