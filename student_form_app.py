@@ -41,5 +41,4 @@ if st.button("Submit"):
         workbook.save(excel_file)
         st.success(f"✅ Data saved for {name}")
 
-Removed Colab-style install command
 
