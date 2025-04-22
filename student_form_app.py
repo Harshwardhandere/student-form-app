@@ -14,6 +14,15 @@ import streamlit as st
 import openpyxl
 import os
 
+
+import pandas as pd
+
+# Check if the file exists
+if os.path.exists("students_data.xlsx"):
+    st.subheader("📊 Submitted Data")
+    data = pd.read_excel("students_data.xlsx")
+    st.dataframe(data).  
+
 st.title("🎓 Student Registration Form")
 
 # Create Excel file if not exists
