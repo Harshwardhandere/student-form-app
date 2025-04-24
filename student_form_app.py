@@ -31,7 +31,7 @@ if st.button("Submit"):
         st.warning("Please enter a name.")
     else:
         # Read the existing data from the CSV file
-        data = pd.read_csv(csv_file)
+        #data = pd.read_csv(csv_file)
 
         # Append the new data
         new_data = pd.DataFrame([[name, gender, education]], columns=["Name", "Gender", "Education"])
